@@ -8,11 +8,9 @@
 /dts-v1/;
 /plugin/;
 
-/ {
+#include <dt-bindings/pinctrl/am33xx.h>
 
-	// identification
-	part-number = "AM335X-PRU-RPROC-4-9-TI";
-	version = "00A0";
+/ {
 
 	fragment@0 {
 		target-path="/";
